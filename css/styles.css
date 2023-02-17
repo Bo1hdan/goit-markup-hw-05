@@ -285,6 +285,18 @@ li {
 }
 .sample-item {
   border: 1px solid #e7e9fc;
+  position: relative;
+}
+.sample-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--secondary);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--bgColor);
+  width: 296px;
+  padding: 40px 32px;
 }
 .sample-item:hover,
 .sample-item:focus {
@@ -307,8 +319,6 @@ li {
 .products-list {
   display: flex;
   gap: 24px;
-}
-.products-list-item {
 }
 
 .team {
@@ -429,11 +439,6 @@ li {
   gap: 120px;
 }
 
-.left-footrer {
-}
-
-.rigrh-footer {
-}
 .social-text {
   font-weight: 500;
   font-size: 16px;
